@@ -11,9 +11,12 @@
     padding-top: 2px;
     text-align: center;
     font-size: 70px;
-    font-family: 'Righteous';
     color:midnightblue;
     text-shadow: 3px 3px rgba(134, 134, 232, 0.562);
+}
+
+.header p {
+    font-family: 'Righteous';
 }
 
 .footer{
@@ -52,9 +55,12 @@ button {
     padding-top: 2px;
     text-align: center;
     font-size: 60px;
-    font-family: 'Righteous';
     color:midnightblue;
     text-shadow: 3px 3px rgba(134, 134, 232, 0.562);
+}
+
+.title p {
+    font-family: 'Righteous';
 }
 
 .content{
@@ -63,14 +69,104 @@ button {
     width: 100%;
     position: absolute;
     /* background-color: green; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     padding: 40px;
 }
 
 img {
-    height: 300px;
     margin: auto;
     display: flex;
 }
 
+.node {
+    height: 300px;
+}
+
+.heap {
+    height: 300px;
+}
+
+.insert {
+    height: 550px;
+}
+
+.union {
+    height: 300px;
+}
+
+td {
+    padding: 2px;
+}
+
+table img {
+    height: 230px;
+}
+
+.final {
+    border: 2px solid black;
+}
+
+.time {
+    height: 400px;
+}
+
+.options {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    /* background-color: red; */
+    border: 6px dotted midnightblue;
+    margin-top: 90px;
+    border-radius: 30px;
+    padding-top: 48px;
+    /* padding-left: 30px; */
+    text-align: center;
+}
+
+.area {
+    position: absolute;
+    height: 510px;
+    width: 1060px;
+    /* background-color: green; */
+    margin-left: 400px;
+}
+
+#myCanvas {
+    height: 510px;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    background-color:aliceblue;
+}
+
+.scroll {
+    display: flex;
+    margin: auto;
+    overflow-y: auto;
+    height: 400px;
+    /* background-color: red; */
+    width: 620px;
+}
+
+.code {
+    height: 2200px;
+}
+
+input[type=text] {
+    padding-left: 7px;
+}
+
+.head {
+    font-family: 'Bebas Neue', cursive;   
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Poppins',sans-serif;
+    text-decoration: underline;
+}
+
+p, li {
+    font-family: 'Poppins';
+} 

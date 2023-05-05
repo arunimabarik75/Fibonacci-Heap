@@ -100,7 +100,7 @@ function showMin()
     // console.log("Hi")
 
     drawArrow(ctx , x ,y - 100 + 24 , x , y - 24 , 0.8)
-    createRectangle()
+    // createRectangle()
 }
 
 function createLink(x , y , x1 , y1)
@@ -421,7 +421,7 @@ function unionList(other)
 
 
 
-function extractMin()
+async function extractMin()
 {
     var newList
     find_min();
@@ -460,9 +460,11 @@ function extractMin()
 
     clearCanvas()
     initParam()
+    createRectangle()
     display(mini , 0 , true , x , y , objects , false)
     find_min()
-  
+      await new Promise(r => setTimeout(r, 1000));
+  next_step()
 }
 
 async function next_step()
@@ -648,6 +650,7 @@ async function next_step()
 
       clearCanvas()
       initParam()
+    createRectangle()
       display(mini , 0 , true , x , y , objects , true)
       find_min()
 
